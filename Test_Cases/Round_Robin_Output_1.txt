@@ -1,0 +1,25 @@
+/* Generated Ouptput for the "Round_Robin_Input_1.txt" */
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 14
+Finish-Time of Pr-2 : 7
+Finish-Time of Pr-3 : 11
+Finish-Time of Pr-4 : 4
+Finish-Time of Pr-5 : 9
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 14
+Turn-Around Time of Pr-2 : 6
+Turn-Around Time of Pr-3 : 10
+Turn-Around Time of Pr-4 : 2
+Turn-Around Time of Pr-5 : 7
+Average TURN-AROUND Time : 7.8
+*********************************************************
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 8
+Waiting Time of Pr-2 : 4
+Waiting Time of Pr-3 : 7
+Waiting Time of Pr-4 : 1
+Waiting Time of Pr-5 : 5
+Average WAITING Time : 5

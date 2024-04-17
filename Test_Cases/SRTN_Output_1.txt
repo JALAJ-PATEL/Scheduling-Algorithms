@@ -1,0 +1,21 @@
+/* Generated Ouptput for the "SRTN_Input_1.txt" */
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 22
+Finish-Time of Pr-2 : 9
+Finish-Time of Pr-3 : 5
+Finish-Time of Pr-4 : 13
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 22
+Turn-Around Time of Pr-2 : 8
+Turn-Around Time of Pr-3 : 2
+Turn-Around Time of Pr-4 : 8
+Average TURN-AROUND Time : 10
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 12
+Waiting Time of Pr-2 : 2
+Waiting Time of Pr-3 : 0
+Waiting Time of Pr-4 : 4
+Average WAITING Time : 4.5

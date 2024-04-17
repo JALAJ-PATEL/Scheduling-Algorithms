@@ -1,0 +1,22 @@
+/* Generated Ouptput for the "Priority_Preemptive_Input_1.txt" */
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 22
+Finish-Time of Pr-2 : 13
+Finish-Time of Pr-3 : 5
+Finish-Time of Pr-4 : 9
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 22
+Turn-Around Time of Pr-2 : 12
+Turn-Around Time of Pr-3 : 2
+Turn-Around Time of Pr-4 : 4
+Average TURN-AROUND Time : 10
+*********************************************************
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 12
+Waiting Time of Pr-2 : 6
+Waiting Time of Pr-3 : 0
+Waiting Time of Pr-4 : 0
+Average WAITING Time : 4.5
