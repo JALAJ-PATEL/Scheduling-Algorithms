@@ -27,8 +27,10 @@ void Round_Robin(){
 
     int currentTime = 0, completed = 0;
     while (completed != process_count) {
+        bool isProcessExecuted = false;
         for (int i = 1; i <= process_count; i++) {
-            if (RemainingTime[i] > 0) {
+            if (RemainingTime[i] > 0 && ArrivalTime[i] <= currentTime) {
+                isProcessExecuted = true;
                 if (RemainingTime[i] > quantum) {
                     currentTime += quantum;
                     RemainingTime[i] -= quantum;
@@ -40,8 +42,10 @@ void Round_Robin(){
                 }
             }
         }
+        if (!isProcessExecuted) {
+            currentTime++;
+        }
     }
-
     // Calling Finish Time function
     cout << "*********************************************************"<<endl;
     Finish_Time(FinishTime, process_count);

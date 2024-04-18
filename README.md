@@ -1,12 +1,6 @@
 <<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scheduling Algorithms README</title>
-</head>
-
 <body>
 
   <h1>Scheduling Algorithms README</h1>
@@ -57,7 +51,11 @@
   <p>To use these algorithms, follow the steps below:</p>
   <ol>
     <li>Compile the source files using a C++ compiler.</li>
-    <li>Execute the compiled program.</li>
+    <li>Type this line in the terminal of your IDE as g++ compile will include all the .cpp files and merge them to execute by detecting their path from header files( i.e. <code>SchedulingAlgorithm.h</code> and <code>Parameter_Funtions.h</code>)
+    "g++ FCFS.cpp SJF.cpp SRTN.cpp Round_Robin.cpp Priority_NonPreemptive.cpp Priority_Preemptive.cpp SchedulingAlgorithms.cpp Parameter_Functions.cpp -o Scheduler"</li>
+    <li>Press ENTER</li>
+    <li>Type "./Scheduler" in the new line of terminal</li>
+    <li>This will start the Execution and List of Scheduling Algorithms will be displayed.</li>
     <li>Choose the desired scheduling algorithm from the menu.</li>
     <li>Enter the required parameters such as arrival time, burst time, etc., as prompted.</li>
     <li>View the results including finish time, turnaround time, and waiting time.</li>
@@ -65,12 +63,6 @@
 
   <h2>Contributing</h2>
   <p>Contributions to improve the implementations or add new algorithms are welcome! Fork this repository, make your changes, and submit a pull request.</p>
-
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
-
-  <h2>Authors</h2>
-  <p>Include your name and contact information here.</p>
 
 </body>
 
