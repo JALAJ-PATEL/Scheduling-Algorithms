@@ -50,12 +50,12 @@ void Round_Robin(){
     cout << "*********************************************************"<<endl;
     Finish_Time(FinishTime, process_count);
 
-    // Calling Turn-Around Time and Waiting Time function
+    // Calling Turn-Around Time function
     int TurnAroundTime[Max_Processes];
     cout << "*********************************************************"<<endl;
     Turn_Around_Time(FinishTime, ArrivalTime, process_count, TurnAroundTime);
 
-    // Calling Waiting Time and Waiting Time function
+    // Calling Waiting Time function
     cout << "*********************************************************"<<endl;
     Waiting_Time(TurnAroundTime, BurstTime, process_count);
 }

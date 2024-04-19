@@ -23,28 +23,32 @@ void ShortestJobFirst() {
     // Initialize the processes array
     vector<Process> processes;
     for (int i = 0; i < process_count; i++) {
-        processes.push_back({i, ArrivalTime[i], BurstTime[i]});
+        processes.push_back({i + 1, ArrivalTime[i], BurstTime[i]}); // Process ID starts from 1
     }
 
-    // Sort processes based on ArrivalTime for SJF
+    // Sort processes based on ArrivalTime and BurstTime for SJF
     sort(processes.begin(), processes.end(), [](const Process& a, const Process& b) {
+        if (a.ArrivalTime == b.ArrivalTime)
+            return a.BurstTime < b.BurstTime;
         return a.ArrivalTime < b.ArrivalTime;
     });
 
     // Calculate FinishTime for SJF Processes
-    int FinishTime[Max_Processes];
-    int currentTime = processes[0].ArrivalTime;  // Initialize current time to the first process arrival time
-    for (const Process& proc : processes) {
-        currentTime = max(currentTime, proc.ArrivalTime); // Ensure we wait until the process arrives
-        FinishTime[proc.ProcessId] = currentTime + proc.BurstTime;
-        currentTime += proc.BurstTime;
+    int FinishTime[Max_Processes] = {0}; // Initialize FinishTime array with zeros
+    int currentTime = 0;                  // Initialize current time to 0
+    for (int i = 0; i < process_count; i++) {
+        if (processes[i].ArrivalTime > currentTime) {
+        currentTime = processes[i].ArrivalTime; // Update for waiting period
+        }
+        currentTime += processes[i].BurstTime;
+        FinishTime[processes[i].ProcessId - 1] = currentTime;
     }
 
     // Calling Finish Time function
     cout << "*********************************************************" << endl;
     Finish_Time(FinishTime, process_count);
 
-    // Calling Turn-Around Time and Waiting Time function
+    // Calling Turn-Around Time function
     int TurnAroundTime[Max_Processes];
     cout << "*********************************************************" << endl;
     Turn_Around_Time(FinishTime, ArrivalTime, process_count, TurnAroundTime);

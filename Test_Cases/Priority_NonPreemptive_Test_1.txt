@@ -7,7 +7,7 @@ Select a Scheduling Algorithm:
 5. Priority Scheduling - Non-Preemptive.
 6. Priority Scheduling - Preemptive.
 *********************************************************
-6
+5
 Enter the Number of Processes: 4
 Enter 1 for Greater Number as Higher Priority
                 OR
@@ -30,4 +30,24 @@ Priority for Pr-3 : 2
 Priority for Pr-4 : 0
 
 NOTE : Press "Enter" and Output will be Generated.
-       Check "Priority_Preemptive_Output_1.txt" for Output of this Input.
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 10
+Finish-Time of Pr-2 : 22
+Finish-Time of Pr-3 : 16
+Finish-Time of Pr-4 : 14
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 10
+Turn-Around Time of Pr-2 : 21
+Turn-Around Time of Pr-3 : 13
+Turn-Around Time of Pr-4 : 9
+Average TURN-AROUND Time : 13.25
+*********************************************************
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 0
+Waiting Time of Pr-2 : 15
+Waiting Time of Pr-3 : 11
+Waiting Time of Pr-4 : 5
+Average WAITING Time : 7.75

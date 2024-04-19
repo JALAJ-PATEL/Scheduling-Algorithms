@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <body>
@@ -61,7 +61,7 @@
     <li>View the results including finish time, turnaround time, and waiting time.</li>
   </ol>
 
-  <h2>Contributing</h2>
+  <h2>Contribution</h2>
   <p>Contributions to improve the implementations or add new algorithms are welcome! Fork this repository, make your changes, and submit a pull request.</p>
 
 </body>

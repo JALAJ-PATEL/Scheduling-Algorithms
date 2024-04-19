@@ -1,3 +1,4 @@
+
 *********************************************************
 Select a Scheduling Algorithm:
 1. FCFS - First Come First Serve.
@@ -7,12 +8,8 @@ Select a Scheduling Algorithm:
 5. Priority Scheduling - Non-Preemptive.
 6. Priority Scheduling - Preemptive.
 *********************************************************
-5
+3
 Enter the Number of Processes: 4
-Enter 1 for Greater Number as Higher Priority
-                OR
-Enter 2 for Smaller Number as Higher Priority.
-2
 *********************************************************
 Arrival-Time for Pr-1 : 0
 Arrival-Time for Pr-2 : 1
@@ -23,11 +20,25 @@ Burst-Time for Pr-1 : 10
 Burst-Time for Pr-2 : 6
 Burst-Time for Pr-3 : 2
 Burst-Time for Pr-4 : 4
-*********************************************************
-Priority for Pr-1 : 5
-Priority for Pr-2 : 4
-Priority for Pr-3 : 2
-Priority for Pr-4 : 0
 
 NOTE : Press "Enter" and Output will be Generated.
-       Check "Priority_NonPreemptive_Output_1.txt" for Output of this Input. 
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 22
+Finish-Time of Pr-2 : 9
+Finish-Time of Pr-3 : 5
+Finish-Time of Pr-4 : 13
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 22
+Turn-Around Time of Pr-2 : 8
+Turn-Around Time of Pr-3 : 2
+Turn-Around Time of Pr-4 : 8
+Average TURN-AROUND Time : 10
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 12
+Waiting Time of Pr-2 : 2
+Waiting Time of Pr-3 : 0
+Waiting Time of Pr-4 : 4
+Average WAITING Time : 4.5

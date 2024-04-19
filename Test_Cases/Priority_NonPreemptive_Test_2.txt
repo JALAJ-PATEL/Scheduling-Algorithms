@@ -33,4 +33,27 @@ Priority for Pr-4 : 5
 Priority for Pr-5 : 5
 
 NOTE : Press "Enter" and Output will be Generated.
-       Check "Priority_NonPreemptive_Output_2.txt" for Output of this Input. 
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 4
+Finish-Time of Pr-2 : 15
+Finish-Time of Pr-3 : 12
+Finish-Time of Pr-4 : 9
+Finish-Time of Pr-5 : 11
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 4
+Turn-Around Time of Pr-2 : 14
+Turn-Around Time of Pr-3 : 10
+Turn-Around Time of Pr-4 : 6
+Turn-Around Time of Pr-5 : 7
+Average TURN-AROUND Time : 8.2
+*********************************************************
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 0
+Waiting Time of Pr-2 : 11
+Waiting Time of Pr-3 : 9
+Waiting Time of Pr-4 : 1
+Waiting Time of Pr-5 : 5
+Average WAITING Time : 5.2

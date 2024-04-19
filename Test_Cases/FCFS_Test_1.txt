@@ -22,4 +22,23 @@ Burst-Time for Pr-3 : 2
 Burst-Time for Pr-4 : 4
 
 NOTE : Press "Enter" and Output will be Generated.
-       Check "FCFS_Output_1.txt" for Output of this Input. 
+
+*********************************************************
+Finish Time for Individual Processes:
+Finish-Time of Pr-1 : 10
+Finish-Time of Pr-2 : 16
+Finish-Time of Pr-3 : 18
+Finish-Time of Pr-4 : 22
+*********************************************************
+Turn-Around Time for Individual Processes :
+Turn-Around Time of Pr-1 : 10
+Turn-Around Time of Pr-2 : 15
+Turn-Around Time of Pr-3 : 15
+Turn-Around Time of Pr-4 : 17
+Average TURN-AROUND Time : 14.25
+*********************************************************
+Waiting Time for Individual Processes :
+Waiting Time of Pr-1 : 0
+Waiting Time of Pr-3 : 13
+Waiting Time of Pr-4 : 13
+Average WAITING Time : 8.75
